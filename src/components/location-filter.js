@@ -4,7 +4,7 @@ export default class LocationFilter extends React.Component {
   render () {
     return (
       <div className="form-group">
-        <label className="col-md-4 control-label" for="location">Location</label>
+        <label className="mui--text-title control-label" for="location">Location</label>
         <div className="col-md-4">
           <select id="location" name="location" className="mui-select">
             <option value="downtown">Downtown</option>
