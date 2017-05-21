@@ -4,7 +4,7 @@ export default class ServicesFilter extends React.Component {
   render () {
     return (
       <div className="form-group ">
-        <label className="control-label" for="selectbasic">Select service</label>
+        <label className="mui--text-title control-label" for="selectbasic">Select service</label>
         <div className="">
           <select id="services_select" name="service_select" className="mui-select">
             <option value="primary_care">Primary Care</option>

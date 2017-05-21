@@ -9,8 +9,11 @@ export default class Index extends React.Component {
     return (
       <div className="home mui-row">
         <Filters />
-        <div className="mui-col-md-8">
+        <div className="mui-col-md-5">
           <Cards />
+        </div>
+        <div className="mui-col-md-3">
+         <img className="dummy-map" src={"../img/dummy-map.jpg"} />
         </div>
       </div>
     );

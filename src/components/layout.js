@@ -4,11 +4,11 @@ import { Link } from 'react-router';
 export default class Layout extends React.Component {
   render() {
     return (
-      <div className="app-container mui-container-fluid">
+      <div className="app-container">
         <header>
-          <h1>Services Search</h1>
+          <h1><img src="../img/MatchSite_white.png"/></h1>
         </header>
-        <div className="app-content">
+        <div className="app-content mui-container-fluid">
           {this.props.children}
         </div>
         <footer>
