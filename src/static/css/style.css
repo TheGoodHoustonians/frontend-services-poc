@@ -1,0 +1,14 @@
+body {
+  font-size: 15px;
+}
+
+label {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.filters {
+  background-color: #efefef;
+  padding: 15px;
+  margin: 0 15px;
+}
